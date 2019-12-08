@@ -1,7 +1,6 @@
 
 body {
-    border-style:dotted;
-    background-color:#272727;
+       background-color:#272727;
     color:#5cdb95;
    font-family:'Annie Use Your Telescope',cursive;
    font-size: 16pt;
@@ -15,46 +14,28 @@ h1, h2 {
     background-color:darkcyan;
     Padding: 0px 20px 0px 20px 
     }
-  table {
-    margin: auto auto auto;
-    text-align: cente;
-    background-color:red;
-  }  
+
 .insert-col-1,.insert-col-2, .insert-col-3,.insert-col-4{
     width: 20%;
-    display:inline;
-    float: left;
+    float: left;    
+}
+
+.insert-col-1 {margin:0 0 0 100}
+
     
-}
+table {
+    width: 80%;
+    margin: auto auto auto;
+    text-align: centre;
+    /* background-color:red; */
+  }  
 
 
-#Insertion_Section {
-
-}
-
-#Undated_tasks_to_do {
-
-}
-
-.table_line {
-    width: 20%;
-    float: left;
-    
-}
-
-#Timed_Tasks_to_do {
-    margin: 10 auto 10 auto;
+td{
+    width: 25%;
+    /* background-color:blue;  */
     text-align: center;
 }
 
-.timed_table_line {
-    margin: 10 auto 10 auto;
-    text-align: center;
-
-}
-
-#completed{
-    margin: 10 auto 10 auto;
-    text-align: center;
-
-}
+#due-date {float: centre;}
+#penguin_image {float: centre}

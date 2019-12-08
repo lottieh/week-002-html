@@ -50,6 +50,12 @@ input {
     font-weight: bold; 
     font-size: 14px; 
     color:#5cdb95;
+    -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+input:hover {
+      background-color:#bd67c9;
 }
 
 #due-date {

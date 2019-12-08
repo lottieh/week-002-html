@@ -9,14 +9,15 @@ body {
 
 h1, h2 { 
     border-style:dotted;
-    border-radius: 10px;
-    
+    border-radius: 1em 4em 1em 4em/1em 4em 1em 4em ;
     text-align: center;
-    margin: 10 auto 10 auto;
+    width: 600px;
+    margin: 30px auto;
     background-color:darkcyan;
     Padding: 0px 20px 0px 20px 
     }
 
+h2 {width: 300px}
 .insert-col-1,.insert-col-2, .insert-col-3,.insert-col-4{
     width: 20%;
     float: left;    

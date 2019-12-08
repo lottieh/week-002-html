@@ -9,6 +9,8 @@ body {
 
 h1, h2 { 
     border-style:dotted;
+    border-radius: 10px;
+    
     text-align: center;
     margin: 10 auto 10 auto;
     background-color:darkcyan;

@@ -1,17 +1,25 @@
 
 body {
+    border-style:dotted;
     background-color:#272727;
     color:#5cdb95;
    font-family:'Annie Use Your Telescope',cursive;
-
-
-
+   font-size: 16pt;
 }
 
-h1{ 
-    font-family:
+h1, h2 { 
+    border-style:dotted;
+    text-align: center;
+    background-color:darkcyan;
+    Padding: 0px 20px 0px 20px 
+    }
+
+.insert-col-1,.insert-col-2, .insert-col-3,.insert-col-4{
+    width: 25%;
+    float: left;
     
 }
+
 
 #Insertion_Section {
 
@@ -38,5 +46,3 @@ h1{
 
 
 }
-
-//rgb(193, 224, 147)

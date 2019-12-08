@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title> Nailing It To Do List !
     </title>
@@ -15,93 +16,105 @@
 
     <div id="Insertion_Section">
 
-        <form action="/action_page.php">
-            Task to be done: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Completion Date (Can
-            be left blank): <br>
-            <input type="text" name="task"> &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; <input type="date" name="completionDate"> &nbsp;
-            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="submit"
-                value="Add">
-        </form>
-    </div>
 
-    <hr>
+        <div class="insert-col-1">Task to be done:
+        </div>
+        <div class="insert-col-3">
+            <form action="/action_page.php">
+                <input type="text" name="task">
+        </div>
 
-    <div id="Undated_tasks_to_do">
-        <h2> Tasks to do : 3 </h2>
+        <div class="insert-col-2">
+            Completion Date (Can be left blank):
+        </div>
 
-        <table>
-            <tr>
-                <div class="table_line">
-                    <td>Task 1 </td>
-                    <td> &nbsp; &nbsp; &nbsp; <input type="submit" value=&#9733;> </td> 
-                    <td> &nbsp; &nbsp; &nbsp; <input type="submit" value="Smashed It"></td>
-                    <td> &nbsp; &nbsp; &nbsp; <input type="submit" value=&#x270E;> </td>
-                </div>
-            </tr>
-            <tr>
-                <div class="table_line">
-                    <td>Task 2 </td>
-                    <td> &nbsp; &nbsp; &nbsp; <input type="submit" value=&#9733;> </td>
-                    <td> &nbsp; &nbsp; &nbsp; <input type="submit" value="Smashed It"></td>
-                    <td> &nbsp; &nbsp; &nbsp; <input type="submit" value=&#x270E;> </td>
-                </div>
-            </tr>
-            <tr>
-                <div class="table_line">
-                    <td>Task 3 </td>
-                    <td> &nbsp; &nbsp; &nbsp; <input type="submit" value=&#9733;> </td>
-                    <td>  &nbsp; &nbsp; &nbsp; <input type="submit" value="Smashed It"></td>
-                    <td> &nbsp; &nbsp; &nbsp; <input type="submit" value=&#x270E;> </td>
-                </div>
-            </tr>
+        <div class="insert-col-4">
+            <input type="date" name="completionDate"> <input type="submit" value="Add">
+          </form>
+         </div>
+        </div>
+<hr>
+<hr>
 
-        </table>
-    </div>
-    <hr>
 
-    <div id="Timed_Tasks_to_do">
-        <h2> Timed Tasks to do : 2 </h2>
-        <table>
-            <th> Due Date</th>
-            <tr>
-                <div class=" timed_table_line">
-                    <td>03/12/2019</td>
-                    <td>Task 4 </td>
-                    <td> &nbsp; &nbsp; &nbsp; <input type="submit" value=&#9733;> </td>
-                    <td> &nbsp; &nbsp; &nbsp; <input type="submit" value="Smashed It"></td>
-                    <td> &nbsp; &nbsp; &nbsp; <input type="submit" value=&#x270E;> </td>
-                </div>
-            </tr>
-            <tr>
-                <div class=" timed_table_line">
-                    <td>12/12/2019</td>
-                    <td>Task 5 </td>
-                    <td> &nbsp; &nbsp; &nbsp; <input type="submit" value=&#9733;> </td>
-                    <td> &nbsp; &nbsp; &nbsp; <input type="submit" value="Smashed It"></td>
-                    <td> &nbsp; &nbsp; &nbsp; <input type="submit" value=&#x270E;> </td>
-                </div>
-            </tr>
 
-        </table>
-    </div>
-    <hr>
+        <div id="Undated_tasks_to_do">
+            <h2> Tasks to do : 3 </h2>
 
-    <div id="completed">
-        <h2> Tasks Smashed: 5 </h2>
-        <table>
-            <tr>
-                <td>
-                    <ul>
-                        <li> Done Task 1</li>
-                        <li> Done Task 2</li>
-                        <li> Done Task 3</li>
-                        <li> Done Task 4</li>
-                        <li> Done Task 5</li>
-                    </ul>
-                </td>
-                <td id="penguin_image">  &nbsp; &nbsp; &nbsp; <img src="docs/Nailing it penguin.jpg"  width="200" alt="You're Nailing it penguin"> </td>
-            </tr>
-    </div>
+            <table>
+                <tr>
+                    <div class="table_line">
+                        <td>Task 1 </td>
+                        <td> &nbsp; &nbsp; &nbsp; <input type="submit" value=&#9733;> </td>
+                        <td> &nbsp; &nbsp; &nbsp; <input type="submit" value="Smashed It"></td>
+                        <td> &nbsp; &nbsp; &nbsp; <input type="submit" value=&#x270E;> </td>
+                    </div>
+                </tr>
+                <tr>
+                    <div class="table_line">
+                        <td>Task 2 </td>
+                        <td> &nbsp; &nbsp; &nbsp; <input type="submit" value=&#9733;> </td>
+                        <td> &nbsp; &nbsp; &nbsp; <input type="submit" value="Smashed It"></td>
+                        <td> &nbsp; &nbsp; &nbsp; <input type="submit" value=&#x270E;> </td>
+                    </div>
+                </tr>
+                <tr>
+                    <div class="table_line">
+                        <td>Task 3 </td>
+                        <td> &nbsp; &nbsp; &nbsp; <input type="submit" value=&#9733;> </td>
+                        <td> &nbsp; &nbsp; &nbsp; <input type="submit" value="Smashed It"></td>
+                        <td> &nbsp; &nbsp; &nbsp; <input type="submit" value=&#x270E;> </td>
+                    </div>
+                </tr>
+
+            </table>
+        </div>
+        <hr>
+
+        <div id="Timed_Tasks_to_do">
+            <h2> Timed Tasks to do : 2 </h2>
+            <table>
+                <th> Due Date</th>
+                <tr>
+                    <div class=" timed_table_line">
+                        <td>03/12/2019</td>
+                        <td>Task 4 </td>
+                        <td> &nbsp; &nbsp; &nbsp; <input type="submit" value=&#9733;> </td>
+                        <td> &nbsp; &nbsp; &nbsp; <input type="submit" value="Smashed It"></td>
+                        <td> &nbsp; &nbsp; &nbsp; <input type="submit" value=&#x270E;> </td>
+                    </div>
+                </tr>
+                <tr>
+                    <div class=" timed_table_line">
+                        <td>12/12/2019</td>
+                        <td>Task 5 </td>
+                        <td> &nbsp; &nbsp; &nbsp; <input type="submit" value=&#9733;> </td>
+                        <td> &nbsp; &nbsp; &nbsp; <input type="submit" value="Smashed It"></td>
+                        <td> &nbsp; &nbsp; &nbsp; <input type="submit" value=&#x270E;> </td>
+                    </div>
+                </tr>
+
+            </table>
+        </div>
+        <hr>
+
+        <div id="completed">
+            <h2> Tasks Smashed: 5 </h2>
+            <table>
+                <tr>
+                    <td>
+                        <ul>
+                            <li> Done Task 1</li>
+                            <li> Done Task 2</li>
+                            <li> Done Task 3</li>
+                            <li> Done Task 4</li>
+                            <li> Done Task 5</li>
+                        </ul>
+                    </td>
+                    <td id="penguin_image"> &nbsp; &nbsp; &nbsp; <img src="docs/Nailing it penguin.jpg" width="200"
+                            alt="You're Nailing it penguin"> </td>
+                </tr>
+        </div>
 
 </body>
 

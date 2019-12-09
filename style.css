@@ -1,7 +1,7 @@
 
 body {
-       background-color:#272727;
-    color:#5cdb95;
+   background-color:#272727;
+   color:#5cdb95;
    font-family:'Annie Use Your Telescope',cursive;
    font-size: 16pt;
    margin: 10 auto 10 auto;
@@ -15,29 +15,40 @@ h1, h2 {
     margin: 30px auto;
     background-color:darkcyan;
     Padding: 0px 20px 0px 20px 
-    }
+}
 
-h2 {width: 300px}
+h2 {
+    width: 300px;
+}
+
 .insert-col-1,.insert-col-2, .insert-col-3,.insert-col-4{
     width: 20%;
     text-align: center;
-    float: left;    
+    float: left; 
+} 
+
+.insert-col-1 {
+    margin:100 100 100 100;
 }
 
-.insert-col-1 {margin:100 100 100 100}
-
+#Insertion_Section {
+    border-style: dotted;
+    border-radius: 1em 4em 1em 4em/1em 4em 1em 4em;
+    Padding: 10px 10px 10px 10px; 
+}
     
 table {
     width: 80%;
     margin: auto auto auto;
     text-align: center;
-    /* background-color:red; */
-  }  
+    border-style: dotted;
+    border-radius: 1em 4em 1em 4em/1em 4em 1em 4em;
+    Padding: 20px 40px 20px 40px; 
+}  
 
 
 td{
     width: 20%;
-    /* background-color:blue;  */
     text-align: center;
 }
 
@@ -51,15 +62,23 @@ input {
     font-size: 14px; 
     color:#5cdb95;
     -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
+    transition-duration: 0.4s;
 }
 
 input:hover {
-      background-color:#bd67c9;
+    background-color:#bd67c9;
 }
 
 #due-date {
     float: centre;
-text-decoration:underline;}
+    text-decoration:underline;
+}
 
-#penguin_image {float: centre}
+#penguin_image {
+    float: centre;
+}
+
+#top {
+    width:100px;
+    height:100px;
+}

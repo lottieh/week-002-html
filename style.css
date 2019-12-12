@@ -21,6 +21,10 @@ h2 {
     width: 300px;
 }
 
+#top {
+    widows: 75px;
+    height:75px;
+}
 .insert-col-1,.insert-col-2, .insert-col-3,.insert-col-4{
     width: 20%;
     text-align: center;
@@ -37,11 +41,12 @@ h2 {
     Padding: 10px 10px 10px 10px; 
 }
     
-table {
+.table {
     width: 80%;
     margin: auto auto auto;
     text-align: center;
     border-style: dotted;
+    color:#5cdb95;
     border-radius: 1em 4em 1em 4em/1em 4em 1em 4em;
     Padding: 20px 40px 20px 40px; 
 }  
@@ -61,6 +66,7 @@ input {
     font-weight: bold; 
     font-size: 14px; 
     color:#5cdb95;
+    background-color:darkcyan;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
@@ -78,7 +84,3 @@ input:hover {
     float: centre;
 }
 
-#top {
-    widows: 75px;
-    height:75px;
-}

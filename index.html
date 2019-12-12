@@ -4,8 +4,9 @@
 <head>
     <title> Nailing It To Do List !
     </title>
-    
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Annie Use Your Telescope' rel='stylesheet'>
@@ -15,100 +16,98 @@
 
 <body>
     <container>
-    <h1> Nailing It To Do List !</h1>
+        <h1> Nailing It To Do List !</h1>
 
-    <div id="Insertion_Section">
+        <div id="Insertion_Section">
 
 
-        <div class="insert-col-1">Task to be done:
+            <div class="insert-col-1">Task to be done:
+            </div>
+            <div class="insert-col-3">
+                <form action="/action_page.php">
+                    <input type="text" name="task" placeholder="Task to be done!">
+            </div>
+
+            <div class="insert-col-2">
+                Completion Date (Can be left blank):
+            </div>
+
+            <div class="insert-col-4">
+                <input type="date" name="completionDate"> <input type="submit" value="Add">
+                </form>
+            </div>
+            <img id="top" src="https://cdn.pixabay.com/photo/2016/03/31/17/51/animal-1293952_1280.png" alt="penguin">
         </div>
-        <div class="insert-col-3">
-            <form action="/action_page.php">
-                <input type="text" name="task" placeholder="Task to be done!">
+
+
+
+        <div id="Undated_tasks_to_do">
+            <h2> Tasks to do : 3 </h2>
+
+
+            <div class="table">
+                <table>
+                    <tr>
+                        <div class="row">
+                            <div class="col-6 col-md-3">Task 1 </div>
+                            <div class="col-6 col-md-3"> <input type="submit" value=&#9733;></div>
+                                <div class="col-6 col-md-3"><input type="submit" value="Smashed It"></div>
+                                    <div class="col-6 col-md-3"><input type="submit" value=&#x270E;> </div>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="table_line">
+                            <td>Task 2 </td>
+                            <td> <input type="submit" value=&#9733;> </td>
+                            <td><input type="submit" value="Smashed It"></td>
+                            <td><input type="submit" value=&#x270E;> </td>
+                        </div>
+                    </tr>
+                    <tr>
+                        <div class="table_line">
+                            <td>Task 3 </td>
+                            <td> <input type="submit" value=&#9733;> </td>
+                            <td><input type="submit" value="Smashed It"></td>
+                            <td><input type="submit" value=&#x270E;> </td>
+                        </div>
+                    </tr>
+                </table>
+            </div>
         </div>
 
-        <div class="insert-col-2">
-            Completion Date (Can be left blank):
-        </div>
 
-        <div class="insert-col-4">
-            <input type="date" name="completionDate"> <input type="submit" value="Add">
-            </form>
-        </div>
-    <img id ="top" src="https://cdn.pixabay.com/photo/2016/03/31/17/51/animal-1293952_1280.png" alt="penguin">
-</div>
-    
-
-
-    <div id="Undated_tasks_to_do">
-        <h2> Tasks to do : 3 </h2>
-
-
-        <div class= "table" >
-           <table>
-            <tr>
-                <div class="table_line">
-                    <td>Task 1 </td>
-                    <td> <input type="submit" value=&#9733;> </td>
-                    <td><input type="submit" value="Smashed It"></td>
-                    <td><input type="submit" value=&#x270E;> </td>
+        <div id="Timed_Tasks_to_do">
+            <h2> Timed Tasks to do : 2 </h2>
+            <div class="table">
+<div class="row">
+                <div class="col-2" id=due-date>
+                    Due Date
                 </div>
-            </tr>
-            <tr>
-                <div class="table_line">
-                    <td>Task 2 </td>
-                    <td> <input type="submit" value=&#9733;> </td>
-                    <td><input type="submit" value="Smashed It"></td>
-                    <td><input type="submit" value=&#x270E;> </td>
-                </div>
-            </tr>
-            <tr>
-                <div class="table_line">
-                    <td>Task 3 </td>
-                    <td> <input type="submit" value=&#9733;> </td>
-                    <td><input type="submit" value="Smashed It"></td>
-                    <td><input type="submit" value=&#x270E;> </td>
-                </div>
-            </tr>
-        </table>
-        </div>
-    </div>
-
-
-    <div id="Timed_Tasks_to_do">
-        <h2> Timed Tasks to do : 2 </h2>
-        <div class= "row table">
-            
-                            <div class = "col-2" id=due-date> Due Date</div>
-        </div>
+            </div>
 
                 <div class="row timed_table_line">
                     <div class="col-4 col-md-2"> 03/12/2019</div>
                     <div class="col-4 col-md-2"> Task 4 </div>
-                        <div class= "col-4 col-md-2"> <input type="submit" value=&#9733;> </div>
-                            <div class = "col-4 col-md-2"> <input type="submit" value="Smashed It"></div>
-                                <div class = "col-4 col-md-2"> <input type="submit" value=&#x270E;> </div>
-               </div>
-             </div>
-             <div class="row timed_table_line">
+                    <div class="col-4 col-md-2"> <input type="submit" value=&#9733;> </div>
+                    <div class="col-4 col-md-2"> <input type="submit" value="Smashed It"></div>
+                    <div class="col-4 col-md-2"> <input type="submit" value=&#x270E;> </div>
+                </div>
+
+                <div class="row timed_table_line">
                     <div class="col-4 col-md-2"> 12/12/2019</div>
                     <div class="col-4 col-md-2"> Task 5 </div>
-                        <div class= "col-4 col-md-2"> <input type="submit" value=&#9733;> </div>
-                            <div class = "col-4 col-md-2"> <input type="submit" value="Smashed It"></div>
-                                <div class = "col-4 col-md-2"> <input type="submit" value=&#x270E;> </div>
-               </div>
-             </div>
-              
-            </tr>
-</table>
+                    <div class="col-4 col-md-2"> <input type="submit" value=&#9733;> </div>
+                    <div class="col-4 col-md-2"> <input type="submit" value="Smashed It"></div>
+                    <div class="col-4 col-md-2"> <input type="submit" value=&#x270E;> </div>
+                </div>
+            </div>
         </div>
-    </div>
 
 
-    <div id="completed">
-        <h2> Tasks Smashed: 5 </h2>
-        <div class= "row table">
-<div class= "col-12  col-md-6">
+        <div id="completed">
+            <h2> Tasks Smashed: 5 </h2>
+            <div class="row table">
+                <div class="col-12  col-md-6">
                     <ul>
                         <li> Done Task 1</li>
                         <li> Done Task 2</li>
@@ -117,11 +116,12 @@
                         <li> Done Task 5</li>
                     </ul>
                 </div>
-                <div class= "col-12 col-md-6" id="penguin_image"> <img src="docs/Nailing it penguin.jpg" width="250"
+                <div class="col-12 col-md-6" id="penguin_image"> <img src="docs/Nailing it penguin.jpg" width="250"
                         alt="You're Nailing it penguin">
-                        </div>
+                </div>
             </div>
-</div>
-</container>
+        </div>
+    </container>
 </body>
+
 </html>

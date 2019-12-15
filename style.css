@@ -5,9 +5,7 @@ body {
    font-family:'Annie Use Your Telescope',cursive;
    font-size: 18pt;
    width: calc(100%-4px);
-   overflow-x: hidden;
 }
-
 h1 { 
     border-style:dotted;
     height: 60px;
@@ -49,7 +47,7 @@ h2 {
 }
     
 .table {
-    margin: auto;
+    margin: auto 20px auto 20px; 
     text-align: center;
     border-style: dotted;
     color:#5cdb95;

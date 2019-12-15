@@ -3,8 +3,9 @@ body {
    background-color:#272727;
    color:#5cdb95;
    font-family:'Annie Use Your Telescope',cursive;
-   font-size: 16pt;
-   margin: 10 auto 10 auto;
+   font-size: 18pt;
+   width: calc(100%-4px);
+   overflow-x: hidden;
 }
 
 h1 { 
@@ -30,12 +31,15 @@ h2 {
     Padding: 0px 20px 0px 20px 
 }
 
-#top1 {
+#topl {
     width:82px;
     height:75px;
+    margin-left: 150px; 
 }
-
-#top {width: 40px; 
+#topr {
+    width:82px;
+    height:75px;
+    margin-right: 150px; 
 }
 
 #Insertion_Section {
@@ -45,7 +49,7 @@ h2 {
 }
     
 .table {
-    margin: auto auto auto;
+    margin: auto;
     text-align: center;
     border-style: dotted;
     color:#5cdb95;
@@ -60,7 +64,7 @@ input {
     background-color: darkcyan;
     padding:0px 15px 0px 15px;
     font-weight: bold; 
-    font-size: 14px; 
+    font-size: 18px; 
     color:#5cdb95;
     background-color:darkcyan;
     -webkit-transition-duration: 0.4s;

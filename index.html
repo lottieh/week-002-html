@@ -29,8 +29,16 @@
 
                 <div class="insert-col-3 col-6 col-md-4">
                     <form action="/action_page.php">
-                        <input type="text" name="task" placeholder="Task to be done!">
-                </div>
+                        <label for="validationServer01"></label>
+      <input type="text" name="task" placeholder="Task to be done!" class="form-control is-valid" id="validationServer01" value="" required>
+      <div class="valid-feedback">
+        Looks good!
+      </div>
+      
+                        <small id="passwordHelpBlock" class="form-text text-muted">
+                            Please enter the task that you need to do. 
+                          </small>
+                    </div>
 
                 <div id="insert-col-2 col-6 col-md-3">
                     Completion Date (Can be left blank):
@@ -38,6 +46,9 @@
 
                 <div class="insert-col-4 col-6 col-md-2">
                     <input type="date" name="completionDate">
+                    <small id="passwordHelpBlock" class="form-text text-muted">
+                        Please enter date of completion is necessary. 
+                      </small>
                 </div>
 
                     <div class="col-12 col-md-1">

@@ -4,6 +4,7 @@ body {
    color:#5cdb95;
    font-family:'Annie Use Your Telescope',cursive;
    font-size: 18pt;
+   overflow-x: hidden;
 }
 h1 { 
     border-style:dotted;
@@ -40,6 +41,12 @@ h2 {
 }
 
 #Insertion_Section {
+    border-style: dotted;
+    border-radius: 1em 4em 1em 4em/1em 4em 1em 4em;
+    Padding: 10px 10px 10px 10px;
+    margin: auto 60px; 
+}
+#insert-col-3 {
     border-style: dotted;
     border-radius: 1em 4em 1em 4em/1em 4em 1em 4em;
     Padding: 10px 10px 10px 10px;

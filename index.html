@@ -29,12 +29,7 @@
 
                 <div class="insert-col-3 col-6 col-md-4">
                     <form action="/action_page.php">
-                        <label for="validationServer01"></label>
-      <input type="text" name="task" placeholder="Task to be done!" class="form-control is-valid" id="validationServer01" value="" required>
-      <div class="valid-feedback">
-        Looks good!
-      </div>
-      
+                        <input type="text" name="task" placeholder="Task to be done!">
                         <small id="passwordHelpBlock" class="form-text text-muted">
                             Please enter the task that you need to do. 
                           </small>
@@ -94,7 +89,7 @@
                 </div>
             </div>
         </div>
-        </div>
+        
 
 
         <div id="Timed_Tasks_to_do">
@@ -147,7 +142,15 @@
                         <li> Done Task 4</li>
                         <li> Done Task 5</li>
                     </ul>
+                    <div class="d-flex justify-content-center">
+                        <div class="spinner-border" role="status">
+                          <span class="sr-only">Loading...</span>
+                        </div>
+                      </div>
                 </div>
+                
+
+
                 <div class="col-12 col-md-6" id="penguin_image"> <img src="docs/Nailing it penguin.jpg" width="250"
                         alt="You're Nailing it penguin">
                 </div>

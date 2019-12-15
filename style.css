@@ -46,11 +46,10 @@ h2 {
     Padding: 10px 10px 10px 10px;
     margin: auto 60px; 
 }
-#insert-col-3 {
-    border-style: dotted;
-    border-radius: 1em 4em 1em 4em/1em 4em 1em 4em;
-    Padding: 10px 10px 10px 10px;
-    margin: auto 60px; 
+.insert-col-2 {
+    font-size:14pt;
+    
+
 }
     
 .table {

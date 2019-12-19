@@ -29,12 +29,12 @@ h2 {
     Padding: 0px 20px 0px 20px 
 }
 
-#topl {
+.topl {
     width:82px;
     height:75px;
     margin-left: 150px; 
 }
-#topr {
+.topr {
     width:82px;
     height:75px;
     margin-right: 150px; 
